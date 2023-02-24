@@ -14,3 +14,10 @@ Known flaws/bugs:
 - Runtime of the program is unbelievably obsolete.  Would be implemented more effectively in MATLAB or Python
 - Ignores divergent sinusoidal approximations and treats them as outliers
 - Hard-to-read formatting
+
+## Differences between two .R files
+bootstrap-project-public.R contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.
+
+bootstrap-project-clean.R contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be.  
+
+Runtime between both files are identical.
