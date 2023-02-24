@@ -18,17 +18,19 @@ Known flaws/bugs:
 - Hard-to-read formatting
 
 ## Differences between two .R files
-bootstrap-project-public.R 
+### bootstrap-project-public.R 
 - contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.  Does not truly represent the length of the code
 
 ![Image](sample-graph-image.jpg)
 ![Image](sample-data-image.jpg)
 
-bootstrap-project-unusable.R 
+<br>
+
+###bootstrap-project-unusable.R 
 - contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be.  Data folders will not be added to the repository.
 - Removes the red linear piecewise function and averaged point per graph from bootstrao-project-public.R; only contains the fitted average sinusoidal model.  
 - More advanced version that has a more accurate model; description is based off of this code
 
 ![Image](unusable-example.png)
 
-Runtime between both files are identical.
+_Runtime between both files are identical._
