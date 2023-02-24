@@ -16,8 +16,8 @@ Known flaws/bugs:
 - Hard-to-read formatting
 
 ## Differences between two .R files
-bootstrap-project-public.R contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.
+bootstrap-project-public.R contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.  Does not truly represent the length of the code
 
-bootstrap-project-clean.R contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be.  
+bootstrap-project-unusable.R contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be.  Removes the red linear piecewise function and averaged point per graph from bootstrao-project-public.R; only contains the fitted average sinusoidal model.  Data folders will not be uploaded to the repository
 
 Runtime between both files are identical.
