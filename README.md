@@ -17,7 +17,10 @@ Known flaws/bugs:
 - Ignores divergent sinusoidal approximations and treats them as outliers
 - Hard-to-read formatting
 
-## Differences between two .R files
+<br>
+
+## Differences between the two .R files
+
 ### bootstrap-project-public.R 
 - contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.  Does not truly represent the length of the code
 - Produces data file that contains all of the numbers calculated from the sinusoidal average fits per data set
