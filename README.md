@@ -5,10 +5,10 @@ R program that analyzes sinusoidal trends in 6 substantially small sets containi
 - Every single bootstrap iteration (1,000 iterations) fits a sinusoidal model: y = a * cos(2π * b * x + c) * (1 - d * x).  All 1,000 approximated models per set are averaged into a final model
 
 Produces a graph which contains:
-(1) a boxplot showing the distribution of the 30,000 bootstrapped data points (1,000 per data point, 5,000 per set), including quartile ranges and outliers for each individual data point (alpha 0.05)
-(2) 30 averaged data points calculated from bootstrapped data points, connected by a linear piecewise function (red line)
-(3) 6 average sinusoidal models calculated from 6,000 model estimations of bootstrapped data points (1,000 iterations per set, blue line)
-(4) individual approximated frequencies of each of the 6 average sinusoidal models 
+1. a boxplot showing the distribution of the 30,000 bootstrapped data points (1,000 per data point, 5,000 per set), including quartile ranges and outliers for each individual data point (alpha 0.05)
+2. 30 averaged data points calculated from bootstrapped data points, connected by a linear piecewise function (red line)
+3. 6 average sinusoidal models calculated from 6,000 model estimations of bootstrapped data points (1,000 iterations per set, blue line)
+4. individual approximated frequencies of each of the 6 average sinusoidal models 
 
 Known flaws/bugs:
 - Runtime of the program is unbelievably obsolete.  Would be implemented more effectively in MATLAB or Python
