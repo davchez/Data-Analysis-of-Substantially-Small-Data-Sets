@@ -1,4 +1,4 @@
-# Data Analysis of Substantially-Small Data Sets
+# Data Analysis of Substantially-Small Data Sets (2020)
 R program that analyzes sinusoidal trends in 6 substantially small sets containing 5 data points each by bootstrap generating 30,000 new data points (6 sets, 5,000 new data points) to simulate a normal distribution for a more accurate approximation of any hidden trend.  Main project at the Salk Institute for Biological studies.
 
 - Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 5,000 new data points total per set for a total of 30,000 new data points
