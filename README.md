@@ -29,7 +29,7 @@ Known flaws/bugs:
 
 ### bootstrap-project-unusable.R 
 - contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be.  Data folders will not be added to the repository.
-- removes the red linear piecewise function and averaged point per graph from bootstrao-project-public.R; only contains the fitted average sinusoidal model.  
+- removes the red linear piecewise function and averaged point per graph from bootstrap-project-public.R.  Only contains the fitted average sinusoidal model.  
 
 ![Image](unusable-example.png)
 
