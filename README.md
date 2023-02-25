@@ -13,7 +13,7 @@ Produces a graph which contains:
 4. individual approximated frequencies of each of the 6 average sinusoidal models 
 
 Known flaws/bugs:
-- Runtime of the program is unbelievably obsolete (7+ minutes)).  Would be implemented more effectively in MATLAB or Python
+- Runtime of the program is unbelievably obsolete (≥O(n^2)).  Would be implemented more effectively in MATLAB or Python
 - Ignores divergent sinusoidal approximations and treats them as outliers
 - Hard-to-read formatting
 
