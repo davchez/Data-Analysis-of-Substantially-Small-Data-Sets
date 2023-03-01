@@ -21,16 +21,19 @@ Known flaws/bugs:
 <br>
 
 ## Basic bootstrap analysis explanation 
-Bootstrapping, as it is specifically used in this program, is a statistical data analysis technique where data samples are built by taking randomly selecting data points in substantially or unusably small data sets.  Then analysis is performed upon the results of the bootstrap generation by calculating and recording the desired statistics of each data sample, then calculating the mean of the all statistics observed.  Further detail can be found [here](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/#:~:text=The%20bootstrap%20method%20is%20a%20statistical%20technique%20for%20estimating%20quantities,after%20they%20have%20been%20chosen.).  In this program specifically, the following attributes of sinusoidal trends are desired.
+Bootstrapping, as it is specifically used in this program, is a statistical data analysis technique where data samples are built by randomly selecting (and subsequently replacing) data points in substantially or unusably small data sets.  Analysis is performed upon the results of the bootstrap generation by calculating and recording the desired statistics of each data sample, then calculating the mean of the all statistics observed.  Further detail can be found [here](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/#:~:text=The%20bootstrap%20method%20is%20a%20statistical%20technique%20for%20estimating%20quantities,after%20they%20have%20been%20chosen.).  In this program specifically, the following attributes are recorded:
 
-- Amplitude of the average sinusoidal model
-- Period of the average sinusoidal model
-- Frequency of the average sinusoidal model
+- Amplitude, period, and frequency of each average sinusoidal model
+- 36 total box-plot distributions of bootstrapped points including outlier, quartile ranges, and average of bootstrapped points
 
 <br>
 
 ## Further details of 6 data sets
-The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of whom I was supervised by.  As a statistical data analysis intern, I did not and did not need to know the origin of the data as my task was to perform sinusoidal analysis upon the sets using bootstrap analysis.
+The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of whom I was supervised by.  As a statistical data analysis intern, I did not and did not need to know the origin of the data as my task was to perform sinusoidal analysis upon the sets using bootstrap analysis.  In this program, the data sets have the following qualities:
+
+- 6 total data sets; the first 3 data sets (S-1 through S-3) are related, and the last 3 data sets (D-1 through D-3) are related
+- In each set: 6 data point "ranges" which contain 6 data points each
+- All data points are between 0.000 and 1.000.
 
 <br>
 
