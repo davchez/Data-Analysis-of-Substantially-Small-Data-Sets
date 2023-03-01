@@ -43,8 +43,8 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 - Produces data file that contains all of the numbers calculated from the sinusoidal average fits per data set
 - 6 individual sets containing 6 data ranges each with 36 unique data points collected from Salk Institute data for analysis (216 total raw data points)
 
-![Image](sample-graph-image.jpg)
-![Image](sample-data-image.jpg)
+![Image](project-images/sample-graph-image.jpg)
+![Image](project-images/sample-data-image.jpg)
 
 <br>
 
@@ -53,6 +53,6 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 - Accurately reflects the actual length of code
 - removes the red linear piecewise function and averaged point per graph from bootstrap-project-public.R.  Only contains the fitted average sinusoidal model
 
-![Image](unusable-example.png)
+![Image](project-images/unusable-example.png)
 
 _Runtime between both files are identical._
