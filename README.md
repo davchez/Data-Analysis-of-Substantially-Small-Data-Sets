@@ -27,7 +27,7 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 
 - 6 total data sets; the first 3 data sets (S-1 through S-3) are related, and the last 3 data sets (D-1 through D-3) are related
 - In each set: 6 data point "ranges" which contain 6 data points each (216 total raw data points in entire program)
-- For each data point range: Distance x-axis placements of x = {0.00, 1.25, 2.5, 3.75, 4.40, 5}; y-value upper bound is 1.000, y-value lower bound is 0.000. 
+- For each data point range: Distance x-axis placements of x = {0.00, 1.25, 2.5, 3.75, 4.40, 5}; y-value upper bound is 2.000, y-value lower bound is -2.000. 
 
 <br>
 
