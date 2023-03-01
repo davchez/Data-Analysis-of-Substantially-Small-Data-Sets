@@ -5,7 +5,7 @@ R program that analyzes sinusoidal trends in 6 substantially small data sets by 
 
 #### Analysis details:
 > Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 6,000 new data points total per set for a total of 36,000 new data points<br><br>
-> Every single bootstrap iteration (1,000 iterations) fits a sinusoidal model: y = a * cos(2π * b * x + c) * (1 - d * x).  All 1,000 approximated models per set are averaged into a final model
+> Every single bootstrap iteration (1,000 iterations) fits my specific sinusoidal model: y = a * cos(2π * b * x + c) * (1 - d * x).  All 1,000 approximated models per set are averaged into a final model.  _Note: a, b, c, d are variables to be calculcated by the model_
 
 #### Produces a graph which contains:
 > A boxplot showing the distribution of the 36,000 bootstrapped data points (1,000 per data point, 5,000 per set), including quartile ranges and outliers for each  individual data point (alpha 0.05) <br><br>
