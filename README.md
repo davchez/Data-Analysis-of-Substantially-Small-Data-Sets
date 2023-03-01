@@ -38,7 +38,7 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 
 ## Differences between the two .R files
 
-#### bootstrap-project-public.R 
+#### [bootstrap-project-public.R](https://github.com/davchez/Data-Analysis-of-Substantially-Small-Data-Sets/blob/main/bootstrap-project-public.R)
 - Contains a runnable version of the data sets which I worked with on my local computer.  Should be able to run from any device since all data points are contained within the file.  Does not truly represent the length of the code
 - Produces data file that contains all of the numbers calculated from the sinusoidal average fits per data set
 - 6 individual sets containing 6 data ranges each with 36 unique data points collected from Salk Institute data for analysis (216 total raw data points)
@@ -48,7 +48,7 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 
 <br>
 
-#### bootstrap-project-unusable.R 
+#### [bootstrap-project-unusable.R](https://github.com/davchez/Data-Analysis-of-Substantially-Small-Data-Sets/blob/main/bootstrap-project-unusable.R)
 - Contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be
 - Accurately reflects the actual length of code
 - removes the red linear piecewise function and averaged point per graph from bootstrap-project-public.R.  Only contains the fitted average sinusoidal model
