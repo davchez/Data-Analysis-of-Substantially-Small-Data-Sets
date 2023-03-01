@@ -25,8 +25,8 @@ Bootstrapping, as it is specifically used in this program, is a statistical data
 ## Further details of 6 data sets
 The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of whom I was supervised by.  As a statistical data analysis intern, I did not and did not need to know the origin of the data as my task was to perform sinusoidal analysis upon the sets using bootstrap analysis.  In this program, the data sets have the following qualities:
 
-> 6 total data sets; the first 3 data sets (S-1 through S-3) are related, and the last 3 data sets (D-1 through D-3) are related
-> In each set: 6 data point "ranges" which contain 6 data points each (216 total raw data points in entire program)
+> 6 total data sets; the first 3 data sets (S-1 through S-3) are related, and the last 3 data sets (D-1 through D-3) are related <br>
+> In each set: 6 data point "ranges" which contain 6 data points each (216 total raw data points in entire program) <br> 
 > For each data point range: Distance x-axis placements of x = {0.00, 1.25, 2.5, 3.75, 4.40, 5}; y-value upper bound is 2.0000, y-value lower bound is -2.0000. 
 
 <br>
