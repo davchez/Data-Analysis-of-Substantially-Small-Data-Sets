@@ -1,7 +1,7 @@
 # Data Analysis of Substantially-Small Data Sets (2020-2021)
 _David Sanchez, davids1lite@gmail.com, high school-level project; Salk Institute for Biological Studies_
 
-R program that analyzes sinusoidal trends in 6 substantially small data sets by [bootstrapping](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/#:~:text=The%20bootstrap%20method%20is%20a%20statistical%20technique%20for%20estimating%20quantities,after%20they%20have%20been%20chosen.) 216 data points to generate 36,000 new data points to artifically create a Gaussian/normal distribution for a more accurate approximation of any hidden trend.
+R program that analyzes sinusoidal trends in 6 substantially small data sets by [bootstrapping](#bootstrap-explanation,-details-of-6-data-sets) 216 data points to generate 36,000 new data points to artifically create a Gaussian/normal distribution for a more accurate approximation of any hidden trend.
 
 - Each set contains 6 data point "ranges", with each range containing 6 possible data points.  Random selection (bootstrap generation) is performed upon each of these ranges to generate 6 points for analysis.
 - Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 6,000 new data points total per set for a total of 36,000 new data points
