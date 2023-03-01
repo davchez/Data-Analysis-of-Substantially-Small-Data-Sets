@@ -3,11 +3,11 @@ _David Sanchez, davids1lite@gmail.com, high school-level project; Salk Institute
 
 R program that analyzes sinusoidal trends in 6 substantially small data sets by [bootstrapping](#Basic-bootstrap-analysis-explanation) 216 data points to generate 36,000 new data points to artifically create a normal/Gaussian distribution for a more accurate approximation of any hidden trend.  Further details of data can be found [here](#Further-details-of-6-data-sets).
 
-### Analysis details:
+#### Analysis details:
 > Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 6,000 new data points total per set for a total of 36,000 new data points<br><br>
 > Every single bootstrap iteration (1,000 iterations) fits a sinusoidal model: y = a * cos(2π * b * x + c) * (1 - d * x).  All 1,000 approximated models per set are averaged into a final model
 
-### Produces a graph which contains:
+#### Produces a graph which contains:
 > A boxplot showing the distribution of the 36,000 bootstrapped data points (1,000 per data point, 5,000 per set), including quartile ranges and outliers for each  individual data point (alpha 0.05) <br><br>
 > 36 averaged data points calculated from bootstrapped data points, connected by a linear piecewise function (red line) <br><br>
 > 6 average sinusoidal models calculated from 6,000 model estimations of bootstrapped data points (1,000 iterations per set, blue line) <br><br>
