@@ -1,7 +1,7 @@
-# Data Analysis of Substantially-Small Data Sets (2020-2021)
+# Bootstrap Analysis of Substantially-Small Data Sets (2020-2021)
 _David Sanchez, davids1lite@gmail.com, high school-level project; Salk Institute for Biological Studies_
 
-R program that analyzes sinusoidal trends in 6 substantially small data sets by [bootstrapping](#bootstrap-explanation,-details-of-6-data-sets) 216 data points to generate 36,000 new data points to artifically create a Gaussian/normal distribution for a more accurate approximation of any hidden trend.
+R program that analyzes sinusoidal trends in [6 substantially small data sets](#Further-details-of-6-data-sets) by [bootstrapping](#Basic-bootstrap-analysis-explanation) 216 data points to generate 36,000 new data points to artifically create a Gaussian/normal distribution for a more accurate approximation of any hidden trend.
 
 - Each set contains 6 data point "ranges", with each range containing 6 possible data points.  Random selection (bootstrap generation) is performed upon each of these ranges to generate 6 points for analysis.
 - Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 6,000 new data points total per set for a total of 36,000 new data points
@@ -20,9 +20,19 @@ Known flaws/bugs:
 
 <br>
 
-## Bootstrap explanation, details of 6 data sets
+## Basic bootstrap analysis explanation 
+Bootstrapping, as it is specifically used in this program, is a statistical data analysis technique where data samples are built by taking randomly selecting data points in substantially or unusably small data sets.  Then analysis is performed upon the results of the bootstrap generation by calculating and recording the desired statistics of each data sample, then calculating the mean of the all statistics observed.  Further detail can be found [here](https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/#:~:text=The%20bootstrap%20method%20is%20a%20statistical%20technique%20for%20estimating%20quantities,after%20they%20have%20been%20chosen.).  In this program specifically, the following attributes of sinusoidal trends are desired.
 
+- Amplitude of the average sinusoidal model
+- Period of the average sinusoidal model
+- Frequency of the average sinusoidal model
 
+<br>
+
+## Further details of 6 data sets
+The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of whom I was supervised by.  As a statistical data analysis intern, I did not and did not need to know the origin of the data as my task was to perform sinusoidal analysis upon the sets using bootstrap analysis.
+
+<br>
 
 ## Differences between the two .R files
 
