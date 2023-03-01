@@ -1,9 +1,8 @@
 # Bootstrap Analysis of Substantially-Small Data Sets (2020-2021)
 _David Sanchez, davids1lite@gmail.com, high school-level project; Salk Institute for Biological Studies_
 
-R program that analyzes sinusoidal trends in [6 substantially small data sets](#Further-details-of-6-data-sets) by [bootstrapping](#Basic-bootstrap-analysis-explanation) 216 data points to generate 36,000 new data points to artifically create a Gaussian/normal distribution for a more accurate approximation of any hidden trend.
+R program that analyzes sinusoidal trends in 6 substantially small data sets by [bootstrapping](#Basic-bootstrap-analysis-explanation) 216 data points to generate 36,000 new data points to artifically create a normal/Gaussian distribution for a more accurate approximation of any hidden trend.  Further details of data can be found [here](#Further-details-of-6-data-sets).
 
-- Each set contains 6 data point "ranges", with each range containing 6 possible data points.  Random selection (bootstrap generation) is performed upon each of these ranges to generate 6 points for analysis.
 - Bootstraps each data set 1,000 times to simulate a normal/Gaussian distribution containing 6,000 new data points total per set for a total of 36,000 new data points
 - Every single bootstrap iteration (1,000 iterations) fits a sinusoidal model: y = a * cos(2π * b * x + c) * (1 - d * x).  All 1,000 approximated models per set are averaged into a final model
 
@@ -12,11 +11,6 @@ Produces a graph which contains:
 2. 36 averaged data points calculated from bootstrapped data points, connected by a linear piecewise function (red line)
 3. 6 average sinusoidal models calculated from 6,000 model estimations of bootstrapped data points (1,000 iterations per set, blue line)
 4. individual approximated frequencies of each of the 6 average sinusoidal models 
-
-Known flaws/bugs:
-- Runtime of the program is unbelievably obsolete (≥O(n^2)).  Would be implemented more effectively in MATLAB or Python
-- Ignores divergent sinusoidal approximations and treats them as outliers
-- Hard-to-read formatting
 
 <br>
 
@@ -33,8 +27,7 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 
 - 6 total data sets; the first 3 data sets (S-1 through S-3) are related, and the last 3 data sets (D-1 through D-3) are related
 - In each set: 6 data point "ranges" which contain 6 data points each (216 total raw data points in entire program)
-- For each data point range: The ranges are placed as follows on the distance (x) axis: 0.00, 1.25, 2.5, 3.75, 4.40, 5
-- For each data point range: The y-values of the data points have an upper bound of 1.00 and a lower bound of 0.00.
+- For each data point range: Distance x-axis placements of x = {0.00, 1.25, 2.5, 3.75, 4.40, 5}; y-value upper bound is 1.000, y-value lower bound is 0.000. 
 
 <br>
 
