@@ -56,3 +56,8 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 ![Image](project-images/unusable-example.png)
 
 _Runtime between both files are identical._
+
+<br>
+
+## Runtime issues and other comments
+The code is not optimized.  I estimate the runtime to be worse than or equal to O(n^2).  I have no plans to optimize the code.  Regardless, I published the program on GitHub to demonstrate my competency in statistical data analysis and the methods required to perform bootstrap analysis with a sinusoidal model.  This program was created after a year-long program studying a curriculum in R provided but not created by Dr. Sergei Gepshtein.
