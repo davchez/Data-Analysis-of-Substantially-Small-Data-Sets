@@ -48,7 +48,7 @@ The 6 data sets were provided by Dr. Sergei Gepshtein of the Salk Institute, of 
 
 <br>
 
-#### [bootstrap-project-final.R](https://github.com/davchez/Data-Analysis-of-Substantially-Small-Data-Sets/blob/main/bootstrap-project-unusable.R)
+#### [bootstrap-project-final.R](https://github.com/davchez/Data-Analysis-of-Substantially-Small-Data-Sets/blob/main/bootstrap-project-final.R)
 - Contains the version which I ran from my computer using personal folder/file paths to reduce the size of the program.  File paths do not work on any other computer; only included to show how compact the code can be
 - Accurately reflects the actual length of code
 - removes the red linear piecewise function and averaged point per graph from bootstrap-project-public.R.  Only contains the fitted average sinusoidal model
